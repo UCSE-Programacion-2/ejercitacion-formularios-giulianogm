@@ -169,15 +169,16 @@ form div input, form div select{
 .container input, .container select{
   height: 60px;
 }
+
 .container label{
   font-size: 20px;
 }
+
 textarea{
   height:307px;
   border: none;
   border-radius: 8px;
 }
-
 fieldset legend {
   font-size: 20px;
 }
