@@ -80,3 +80,122 @@ a {
 .footer-github:hover {
   text-decoration: underline;
 }
+
+form {
+  background-color: #00669F;
+  min-height: 832px;
+  width: 954px;
+  border-radius: 49px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 30px;
+  padding: 20px;
+  
+}
+
+form h1{
+  font-size: 40px;
+  width: 100%;
+  height: 70px;
+  padding-top: 10px;
+}
+form h2{
+  font-size: 20px;
+  height: 14px;
+  width: 100%;
+  font-weight: lighter;
+}
+form h1, form h2{
+  margin: 0;
+  text-align: center;
+}
+button{
+  height: 87px;
+  width: 466px;
+  border: none;
+  border-radius: 15px;
+  background-color: #1CD1B0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.boton{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+form div{
+  height: 102px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset{
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.opcioncheck{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  height: auto;
+  /* width: 100%; */
+  margin-bottom: 10px;
+}
+.opcioncheck input{
+  height: auto;
+}
+.fieldpoderes{
+  height: 156px;
+  margin-bottom: 30px;
+}
+.fieldtipo{
+  height: 102px;
+  margin-top: 10px;
+}
+form div input, form div select{
+  border: none;
+  border-radius: 5px;
+}
+
+.container input, .container select{
+  height: 60px;
+}
+.container label{
+  font-size: 20px;
+}
+textarea{
+  height:307px;
+  border: none;
+  border-radius: 8px;
+}
+
+fieldset legend {
+  font-size: 20px;
+}
+.fieldcontainer {
+  height: 312px;
+  width: 343px;
+}
+
+.fieldcontainer input{
+  height: 15px;
+}
+
+
+.footer-github{
+  font-size: 40px;
+}
+
+hr{
+  width: 310px;
+  margin-bottom: 15px;
+}
