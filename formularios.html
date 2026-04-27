@@ -8,8 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Karla&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="css/formularios.css" />
   </head>
   <body>
@@ -37,15 +36,94 @@
         <!-- TODO: fieldset Poderes con 4 checkboxes -->
         <!-- TODO: fieldset Tipo de personaje con radios name="tipo-personaje" -->
         <!-- TODO: botón <button type="submit">Añadir</button> -->
-        <p class="placeholder-copy">
-          Reemplazá este párrafo por el formulario completo respetando la jerarquía del diseño de
-          referencia.
-        </p>
+
+        <form action="#" method="post">
+          <h1>Añadí tu super!</h1>
+          <h2>Agrega tu personaje favorito completando las opciones</h2>
+
+          <div class="container">
+            <label for="nombre">*Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+          </div>
+
+          <div class="container">
+            
+            <label for="especie">*Especie</label>
+
+            <select name="especie" id="Especie">
+              <option value="">Especie</option>
+              <option value="alien">Alien</option>
+              <option value="humano">Humano</option>
+            </select>
+          
+          </div>
+
+          <div class="container">
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+          </div>
+
+          <div class="container">
+            <label for="foto">Agregar foto</label>
+            <input type="file" name="foto" id="foto">
+          </div>
+
+          <div>
+            <textarea name="descripcion" id="descripcion"
+              placeholder="Descripcion"></textarea>
+          </div>
+
+          <div class="fieldcontainer">
+            <fieldset class="fieldpoderes">
+              <legend>Poderes</legend>
+              <div class="opcioncheck">
+                <input type="checkbox" name="poderes" value="volar" id="volar">
+                <label for="volar">Volar</label>
+              </div>
+
+              <div class="opcioncheck">
+                <input type="checkbox" name="poderes" value="superinteligencia"
+                  id="superinteligencia">
+                <label for="superinteligencia">Superinteligencia</label>
+              </div>
+
+              <div class="opcioncheck">
+                <input type="checkbox" name="poderes" value="vista" id="vista">
+                <label for="vista">Vista de rayo laser</label>
+              </div>
+
+              <div class="opcioncheck">
+                <input type="checkbox" name="poderes" value="billetera"
+                  id="billetera">
+                <label for="billetera">Billetera gorda</label>
+              </div>
+            </fieldset>
+
+            <hr>
+
+            <fieldset class="fieldtipo">
+              <legend>Tipo de personaje</legend>
+              <div class="opcioncheck">
+                <input type="radio" name="tipo-personaje" value="heroe">
+                <label for="heroe">Heroe / Heroina</label>
+              </div>
+
+              <div class="opcioncheck">
+                <input type="radio" name="tipo-personaje" value="villano">
+                <label for="villano">Villano / Villana</label>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="boton">
+            <button type="submit">Añadir</button>
+          </div>
+        </form>
       </main>
 
       <footer class="site-footer">
-        <p>Todos los derechos reservados - [TU NOMBRE Y APELLIDO]</p>
-        <a href="https://github.com/" class="footer-github">GitHub</a>
+        <p>Todos los derechos reservados - [Giuliano Gani]</p>
+        <img src="/img/Github Icon.png" alt="Github Icon">
       </footer>
     </div>
   </body>
